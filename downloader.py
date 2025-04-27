@@ -3,9 +3,9 @@ import threading
 import sys
 import os
 
-# Multithreaded download time for 5 files: ~0.35 seconds
-# Sequential download time for 5 files: ~0.74 seconds
-#
+
+#Sequential download time: 3.330415964126587 seconds
+#Multithreaded download time: 0.32100820541381836 seconds
 # Based on test runs on my computer.
 
 def download_file(url, filename):
